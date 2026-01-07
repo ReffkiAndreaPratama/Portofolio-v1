@@ -1043,3 +1043,19 @@ body.dark .btn-home2:hover {
   background-color: #474af0;
   border-color: #474af0;
 }
+
+@media (max-width: 768px) {
+  .about img {
+    position: static;   /* RESET posisi */
+    margin: 20px auto;  /* Tengah & aman */
+    display: block;
+  }
+}
+.about-container {
+  position: relative;
+  z-index: 1;
+}
+
+.about img {
+  z-index: 0;
+}
