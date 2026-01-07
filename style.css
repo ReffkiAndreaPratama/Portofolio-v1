@@ -277,8 +277,6 @@ hr {
 }
 
 .about img{
-    position: relative;
-    bottom: 85px;
     width: 400px;
     height: 400px;
     border-radius: 15px;
@@ -1046,10 +1044,13 @@ body.dark .btn-home2:hover {
 
 @media (max-width: 768px) {
   .about img {
-    position: static;   /* RESET posisi */
-    margin: 20px auto;  /* Tengah & aman */
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 20px auto;
     display: block;
   }
+}
 }
 .about-container {
   position: relative;
